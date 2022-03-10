@@ -1,0 +1,74 @@
+<HTML>
+
+    <HEAD>
+        <TITLE>My Favourite Books</TITLE>
+        <META charset="utf8" />
+        <LINK rel="stylesheet" href="books.css" />
+        <SCRIPT src="books.js"></SCRIPT>
+    </HEAD>
+    
+    <BODY>
+        <HEADER>
+            <DIV id="topbar"></DIV>
+            <DIV id="titlebox">
+                <H1 id="title">My Favourite Books</H1>
+            </DIV>
+            <div class="topnav">
+                <a class="active" href="#library">Library</a>
+                <a href="#collections">Collections</a>
+                <a href="#loans">Loans</a>
+                <dev class = search_area>
+                    <form id="form" role="search">
+                        <input type="search" id="query" name="q" onkeyup="search()"
+                         placeholder="Search..."
+                         aria-label="Search through site content">
+                        <button onclick = 'search()'>Search</button>
+                        <button onclick = 'collapse()'>Collapse</button>
+                      </form>
+                </dev> 
+            </div>
+        </HEADER>
+        <ASIDE id="sidebar">
+            <h3>João Aleixo</h3>
+            <p><a href="">Profile</a></p>
+            <p><a href="">Preferences</a></p>
+            <h3>Categorias</h3>
+            <p><a href="">Drama (1)</a></p>
+            <p><a href="">Historical Romance (2)</a></p>
+            <p><a href="">Science Fiction (5)</a></p>
+            <h3>Collections</h3>
+            <p><a href="">Holidays (4)</a></p>
+            <p><a href="">All timers (10)</a></p>
+            <h3>Wishlist</h3>
+            <ul id="Wishlist"></ul>
+        </ASIDE>
+        <SECTION>
+            <ul id="listofbooks">
+                <li id = "list"></li>
+            </UL>
+        </SECTION>
+        <FOOTER>
+            <div class="botnav">
+                <div class = "botnav1">
+                    <p>E-mail: <a href="">joe@someemail.somewhere</a></p>
+                    <p>Phone: 555 888 333</p>
+                    <p>&nbsp;</p>
+                </div>
+                <div class="botnav2">
+                    <ul>
+                        <li>
+                            <p><a href="">Section 1</a></p>
+                        </li>
+                        <li>
+                            <p><a href="">Section 2</a></p>
+                        </li>
+                        <li>
+                            <p><a href="">Section 3</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </FOOTER>
+    </BODY>
+    
+    </HTML>
